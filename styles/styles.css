@@ -8,7 +8,6 @@
 }
 
 html, body, .body, .title-container{
-	border: solid 2px black;
 	height: 100%;
 	font-size: 1rem;
 }
@@ -23,11 +22,11 @@ body {
 
 .body {
 	grid-template-columns: 1fr 2fr;
-	column-gap: 2rem;
-	border: solid 2px black;
+	column-gap: 2.5rem;
 	height: 100%;
 	width: 75%;
 	margin: auto;
+	background: white;
 }
 
 .flex-container {
@@ -45,7 +44,7 @@ body {
 	height: 100%;
 	background-image: url(../images/header-image.jpg);
 	background-size: cover;
-	z-index: -1;
+	z-index: 0;
 }
 
 #odin {
@@ -77,6 +76,26 @@ h1 {
 /* Here starts header */
 
 .main {
-	
+	grid-template-rows: 1fr 2fr;
 }
 
+header { 
+	height: min-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 1.5rem;
+	font-weight: 600;
+	width: 80%;
+	margin-top: auto;
+}
+
+p {
+	margin: 2rem;
+}
+
+/* Here starts form */
+
+form {
+	margin: 2rem;
+}
