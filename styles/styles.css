@@ -1,0 +1,82 @@
+
+*,
+::after,
+::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, body, .body, .title-container{
+	border: solid 2px black;
+	height: 100%;
+	font-size: 1rem;
+}
+
+.grid-container {
+	display: grid;
+}
+
+body {
+	background-color: rgb(63, 63, 63);
+}
+
+.body {
+	grid-template-columns: 1fr 2fr;
+	column-gap: 2rem;
+	border: solid 2px black;
+	height: 100%;
+	width: 75%;
+	margin: auto;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.vertical {
+	flex-direction: column;
+}
+
+/* Here starts img and logo */
+
+.logo-container {
+	box-sizing: border-box;
+	height: 100%;
+	background-image: url(../images/header-image.jpg);
+	background-size: cover;
+	z-index: -1;
+}
+
+#odin {
+	margin-top: 35%;
+	height: 10rem;
+	background-color: rgba(0, 0, 0, 0.575);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 1rem;
+}
+
+#odin-logo {
+	height: 100%;
+}
+
+h1 {
+	margin: 1rem;
+	font-size: 4rem;
+	color: aliceblue;
+}
+
+#background-image {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+/* Here starts header */
+
+.main {
+	
+}
+
